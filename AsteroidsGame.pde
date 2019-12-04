@@ -1,10 +1,13 @@
 //your variable declarations here
+Spaceship bob;
 public void setup() 
 {
-  //your code here
+  size(500,500);
+  bob = new Spaceship();
 }
 public void draw() 
 {
+  bob.move();
+  bob.show();
   //your code here
 }
-
